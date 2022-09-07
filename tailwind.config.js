@@ -10,7 +10,12 @@ module.exports = {
       'body':['"League Spartan"', ],
       'display':['"Antonio"', ]
     },
-    extend: {},
+    
+    extend: {
+      backgroundImage:{
+        'star-cover':"url(../public/images/background-stars.svg)"
+      }
+    },
   },
   plugins: [],
 }

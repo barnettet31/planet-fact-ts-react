@@ -2,7 +2,7 @@ import React from "react"
 
 type IHeadingProps = {
 type:string;
-children:JSX.Element
+children:JSX.Element | string;
 }
 const headingTypes:{
     [key:string]:string
