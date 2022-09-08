@@ -62,7 +62,7 @@ export function NavBar (){
             <Link to='/'><h1 className="font-display uppercase text-[28px] leading-9 -tracking-[1.05px] ">The Planets</h1></Link>
             <img alt="" onClick={handleNavBurgerClick} className="w-6 h-4 md:hidden" src={`${process.env.PUBLIC_URL}/images/icon-hamburger.svg`}/>
             </div>
-            <nav className={`fixed  h-screen w-screen  bg-[#070724] md:bg-transparent md:static md:w-full md:h-auto ease-in-out duration-200 top-[69px]  px-6 py-11 md:py-2 left-0 origin-top ${navShown? 'scale-y-100 opacity-100 md:opacity-100 md:scale-y-100':'scale-y-0 opacity-70 md:scale-y-100 md:opacity-100 '} `}>
+            <nav className={`fixed  h-screen w-screen  bg-[#070724] z-10 md:bg-transparent md:static md:w-full md:h-auto ease-in-out duration-200 top-[69px]  px-6 py-11 md:py-2 left-0 origin-top ${navShown? 'scale-y-100 opacity-100 md:opacity-100 md:scale-y-100':'scale-y-0 opacity-70 md:scale-y-100 md:opacity-100 '} `}>
                 <ul className='flex flex-col items-center justify-center md:flex-row md:justify-evenly'>
                     {planets.map((planet)=><PlanetLink key={planet.name} linkClickedFunction={handleNavBurgerClick} {...planet}/>)}
                     
