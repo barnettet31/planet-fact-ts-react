@@ -42,9 +42,9 @@ export function PlanetPage({ planet }: PlanetProps) {
             <p className="font-[12px] leading-[25px] opacity-50">Source : </p> <a className="flex items-end underline opacity-50" href={planet.overview.source}> Wikipedia <img className="ml-1" src={process.env.PUBLIC_URL +"/images/icon-source.svg"} alt=""/></a>
             </div></div>
             <div className="hidden md:flex md:flex-col md:w-1/2">
-              <Button planet={planet.name}>Overview</Button>
-              <Button planet={planet.name}>Internal Structure</Button>
-              <Button planet={planet.name}>Surface Geology</Button>
+              <div>Overview</div>
+              <div>Internal Structure</div>
+              <div>Surface Geology</div>
             </div>
           </div>
           <div className="flex flex-col gap-2 md:w-full md:flex-row mt-7 md:justify-between">
