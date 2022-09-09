@@ -1,7 +1,7 @@
 import { Heading } from "../text/heading.component";
 
 type IButtonProps = {
-    children:JSX.Element;
+    children:JSX.Element | string;
     planet:string;
     
 }
@@ -17,7 +17,7 @@ const activeColors:{
     Uranus:"#1EC1A2",
     Neptune:"#2D68F0",
 }
-function Button  ({children, planet}:IButtonProps){
+export function Button  ({children, planet}:IButtonProps){
 return <div className={`bg-transparent hover:bg-[#D8D8D8] active:bg-[${activeColors[planet]}] text-left pl-[74px] py-3`}>
     <Heading type="h3">{children}</Heading>
 </div>
