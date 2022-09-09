@@ -80,16 +80,16 @@ interface ISelectedListProps {
           </BodyText>
         </li>
         <li
-          onClick={() => updateSelected("surface")}
+          onClick={() => updateSelected("geology")}
           className={`relative after:absolute ${
-            selectedItem === "surface" ? "after:scale-x-100" : "after:scale-x-0"
+            selectedItem === "geology" ? "after:scale-x-100" : "after:scale-x-0"
           } after:content-[''] after:h-[4px]  after:duration-200 after:ease-in-out after:origin-left after:w-full after:-bottom-[80%]  ${
             planets.find((element) => element.name === planet)?.color
           }`}
         >
           <BodyText
             additionalStyles={
-              selectedItem === "surface" ? "opacity-100" : "opacity-50"
+              selectedItem === "geology" ? "opacity-100" : "opacity-50"
             }
           >
             Surface

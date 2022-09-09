@@ -1,4 +1,4 @@
-export type IPlanet = {
+export interface IPlanet  {
     name:string;
     overview:{
         content:string;
