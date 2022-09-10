@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/planet-fact-ts-react/static/css/main.79040576.css",
-    "main.js": "/planet-fact-ts-react/static/js/main.3e8bc1ba.js",
+    "main.js": "/planet-fact-ts-react/static/js/main.0fa55f38.js",
     "static/media/background-stars.svg": "/planet-fact-ts-react/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
     "index.html": "/planet-fact-ts-react/index.html",
     "main.79040576.css.map": "/planet-fact-ts-react/static/css/main.79040576.css.map",
-    "main.3e8bc1ba.js.map": "/planet-fact-ts-react/static/js/main.3e8bc1ba.js.map"
+    "main.0fa55f38.js.map": "/planet-fact-ts-react/static/js/main.0fa55f38.js.map"
   },
   "entrypoints": [
     "static/css/main.79040576.css",
-    "static/js/main.3e8bc1ba.js"
+    "static/js/main.0fa55f38.js"
   ]
 }
