@@ -56,7 +56,7 @@ export function NavBar (){
     const handleNavBurgerClick = ()=> setNavShown(!navShown);
         return(
         <>
-        <div className="relative flex md:flex-col md:gap-10 lg:flex-row items-center justify-between px-6 py-4 border-b border-b-white/[.2]">
+        <header className="relative flex md:flex-col md:gap-10 lg:flex-row items-center justify-between px-6 py-4 border-b border-b-white/[.2]">
             <div className="flex items-center justify-between w-full lg:flex-row lg:justify-start md:flex-col">
             <Link to='/'><h1 className="font-display uppercase text-[28px] leading-9 -tracking-[1.05px] ">The Planets</h1></Link>
             <img alt="" onClick={handleNavBurgerClick} className="w-6 h-4 md:hidden" src={`${process.env.PUBLIC_URL}/images/icon-hamburger.svg`}/>
@@ -68,7 +68,7 @@ export function NavBar (){
                     
                 </ul>
             </nav>
-        </div>
+        </header>
         <Outlet/>
         </>
         )
