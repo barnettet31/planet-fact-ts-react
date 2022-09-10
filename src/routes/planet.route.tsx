@@ -18,7 +18,7 @@ export function PlanetPage({ planet }: PlanetProps) {
   const handleSetSelected = (contentToUpdateTo: string) =>
     setSelectedItem(contentToUpdateTo);
   return (
-    <main className="flex flex-col justify-around h-full lg:py-[7.875rem]">
+    <main className="flex flex-col justify-around h-full">
       <div className="mb-10 md:hidden">
         <SelectedList
           planet={planet.name}
