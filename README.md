@@ -13,9 +13,7 @@ This is a solution to the [Planets fact site challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,17 +27,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./desktop_screen.png) Desktop View
+![](./tablet_screen.png) Tablet View
+![](./phone_screen.png) Desktop View
 
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://barnettet31.github.io/planet-fact-ts-react/)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+I wanted to continue using tailwind and react in this project but add the slight difficulty of TS. So I created the project using the typescript template. 
+Typescript is proving to be pretty difficult to get my mind wrapped around, and it's a 100% something I'm going to need to build a couple projects with before I understand it. 
+
+
 
 ### Built with
 
@@ -54,11 +59,11 @@ Users should be able to:
 
 
 ### What I learned
-
+I learned that tailwind doesn't support dynamic creation of the classes with string interpolation so I had to write a couple of functions to return the desired colors, sizes etc. 
 
 
 ### Continued development
-
+Somethings I would change if I could would be the image shifting the page when the geology tab is clicked, so I will need to look into maybe setting minimum heights on the containers in order to keep them consistently shaped. 
 
 ## Author
 
@@ -67,4 +72,3 @@ Users should be able to:
 - LinkedIn - [@travis-barnette-ba7987237](https://www.linkedin.com/in/travis-barnette-ba7987237/)
 
 
-## Acknowledgments
