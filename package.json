@@ -1,7 +1,7 @@
 {
   "name": "planet-fact-ts-react",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://barnettet31.github.io/planet-fact-ts-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
