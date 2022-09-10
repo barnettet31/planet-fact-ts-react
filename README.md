@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://barnettet31.github.io/planet-fact-ts-react/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/barnettet31/planet-fact-ts-react)
+- Live Site URL: [Add live site URL here](https://barnettet31.github.io/planet-fact-ts-react/)
 
 ## My process
 
