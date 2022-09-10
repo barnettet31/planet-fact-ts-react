@@ -60,12 +60,12 @@ export const returnDesiredPictureFromPlanet = ({ images }: IPlanet, selected: st
 export const activeColors: {
   [key: string]: string
 } = {
-  Mercury: "#419EBB",
-  Venus: "#EDA249",
-  Earth: "#6D2ED5",
-  Mars: "#D14C32",
-  Jupiter: "#D83A34",
-  Saturn: "#CD5120",
-  Uranus: "#1EC1A2",
-  Neptune: "#2D68F0",
+  Mercury: "bg-[#419EBB] border-[#419EBB]",
+  Venus: "bg-[#EDA249] border-[#EDA249]",
+  Earth: "bg-[#6D2ED5] border-[#6D2ED5]",
+  Mars: "bg-[#D14C32] border-[#D14C32]",
+  Jupiter: "bg-[#D83A34] border-[#D83A34]",
+  Saturn: "bg-[#CD5120] border-[#CD5120]",
+  Uranus: "bg-[#1EC1A2] border-[#1EC1A2]",
+  Neptune: "bg-[#2D68F0] border-[#2D68F0]",
 }

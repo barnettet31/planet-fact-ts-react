@@ -46,7 +46,7 @@ interface ISelectedListProps {
     ];
   
     return (
-      <ul className="flex justify-between w-full py-5 border-b-white/[0.2] border-b px-6 mb-10">
+      <ul className="flex justify-between w-full py-5 border-b-white/[0.2] border-b px-6 items-center ">
         <li
           onClick={() => updateSelected("overview")}
           className={`relative after:absolute ${
